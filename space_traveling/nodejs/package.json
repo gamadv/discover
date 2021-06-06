@@ -1,0 +1,23 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "Studying Node JS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "timer": "node ./src/functions/timers/setTimeout.js",
+    "cleartimer": "node ./src/functions/timers/clearTimeout.js",
+    "interval": "node ./src/functions/timers/setInterval.js",
+    "clearinter": "node ./src/functions/timers/clearInterval.js",
+    "event": "node ./src/functions/events/events.js",
+    "inherit": "node ./src/functions/events/inherits.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "learning",
+    "nodejs",
+    "vscode"
+  ],
+  "author": "Gamadv",
+  "license": "MIT"
+}
